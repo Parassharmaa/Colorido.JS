@@ -1,0 +1,24 @@
+{
+  "name": "colorido.js",
+  "version": "1.0.0",
+  "description": "Colorido.Js is a awesome , flexible and cross-browser dynamically color changing tool for web projects.",
+  "main": "colorido.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parassharmaa/Colorido.JS.git"
+  },
+  "keywords": [
+    "colors",
+    "dynamic",
+    "colorido"
+  ],
+  "author": "parassharmaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Parassharmaa/Colorido.JS/issues"
+  },
+  "homepage": "https://github.com/Parassharmaa/Colorido.JS#readme"
+}
