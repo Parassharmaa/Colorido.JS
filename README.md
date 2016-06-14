@@ -12,7 +12,8 @@ $ bower install colorido.js --save
 ```
 
 ## Basic Usage
-1. Include the colorido on bottom of file and above`</body>`
+
+1. Include the colorido at bottom of file and above`</body>`
 
   ```html
   
@@ -20,8 +21,10 @@ $ bower install colorido.js --save
   </body>
   </html>
   ```
- 2.Initiate the colorido.js script in the file by following json:
- ```js
+  
+2.Initiate the colorido.js script in the file by following json:
+ 
+```javascript
     var config = {
 	opacity: 0.7, // background opacity for colorido-o (0-1)
 	choice: [ "rgb(239,0,0)"
@@ -41,7 +44,7 @@ $ bower install colorido.js --save
 * `animationType:Animation Type`
 * `chromeTab: Color Change Settings for chrome Tabs on android, wp and ios`
 
-3.Colorido.js simply works upon 3 css classes.
+3.Colorido.js simply works upon 3 css classes:
 * `colorido`
 * `colorido-o`
 * `colorido-t`
