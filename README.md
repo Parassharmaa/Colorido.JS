@@ -26,7 +26,7 @@ $ bower install colorido.js --save
  
 ```javascript
     var config = {
-	opacity: 0.7, // background opacity for colorido-o (0-1)
+	opacity: 0.7,
 	choice: [
 		'rgb(138, 43, 43)',
 		'rgb(98, 162, 40)',
@@ -60,7 +60,7 @@ $ bower install colorido.js --save
 **Applies these classes on your webcomponents to see magic**
 
 
-[Check Demo Here](https://parassharmaa.github.io/colorido.js/)
+[Check Demo Here](https://parassharmaa.github.io/Colorido.JS/)
 
 
 ## License
