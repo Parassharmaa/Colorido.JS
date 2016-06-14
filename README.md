@@ -10,6 +10,11 @@ Install Colorido via Bower:
 ```bash
 $ bower install colorido.js --save
 ```
+Install Colorido via npm:
+
+```bash
+$ npm install colorido.js 
+```
 
 ## Basic Usage
 
