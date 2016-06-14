@@ -1,0 +1,22 @@
+{
+  "name": "colorido.js",
+  "main": "colorido.js",
+  "homepage": "https://github.com/Parassharmaa/Colorido.JS",
+  "authors": [
+    "parassharmaa <paraaZz@outook.com>"
+  ],
+  "description": "Colorido.Js is a awesome , flexible and cross-browser dynamically color changing tool for web projects.",
+  "keywords": [
+    "colors",
+    "dynamic",
+    "auto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
