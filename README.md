@@ -26,7 +26,7 @@ $ bower install colorido.js --save
  
 ```javascript
     var config = {
-	opacity: 0.7, // background opacity for colorido-o (0-1)
+	opacity: 0.7,
 	choice: [
 		'rgb(138, 43, 43)',
 		'rgb(98, 162, 40)',
@@ -53,12 +53,14 @@ $ bower install colorido.js --save
 * `chromeTab: Color Change Settings for chrome Tabs on android, wp and ios`
 
 3.Colorido.js simply works upon 3 css classes:
-* `colorido`
-* `colorido-o`
-* `colorido-t`
+* `colorido: Applies Dynamic background color`
+* `colorido-o: Applies background color with opacity`
+* `colorido-t: Applies dynamic Text-color`
+
+**Applies these classes on your webcomponents to see magic**
 
 
-[Check Demo Here](https://parassharmaa.github.io/colorido.js/)
+[Check Demo Here](https://parassharmaa.github.io/Colorido.JS/)
 
 
 ## License
