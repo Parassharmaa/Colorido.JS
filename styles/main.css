@@ -1,19 +1,29 @@
-/* line 1, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 1, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 body {
   margin: 0;
   text-align: center;
   word-wrap: break-word; }
 
-/* line 8, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 8, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 div {
   margin: auto;
   width: 70%; }
 
-/* line 13, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 13, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 h1 {
   font-size: 21px; }
 
-/* line 17, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 15, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
+a {
+  color: #463e3e;
+  font-size: 20px;
+  padding: 13px;
+  margin-top: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; }
+
+/* line 26, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 .main .title {
   padding: 13px;
   box-shadow: 0px 2px 8px 0.4px #333;
@@ -23,11 +33,11 @@ h1 {
   font-family: "helvetica";
   cursor: pointer; }
 
-/* line 32, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 41, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 .main .title:hover {
   box-shadow: 0px 4px 10px 0.2px #333; }
 
-/* line 35, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+/* line 44, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
 .wrap {
   background-color: white;
   padding: 25px;
@@ -35,26 +45,39 @@ h1 {
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 2px 8px 0.4px #333; }
-  /* line 48, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+  /* line 57, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
   .wrap div.box {
     margin: 3%;
     cursor: pointer; }
-  /* line 53, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+  /* line 62, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
   .wrap .box {
     box-shadow: 0px 2px 8px 0.4px #333; }
 
 @media (max-width: 780px) {
-  /* line 57, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+  /* line 66, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
   .wrap {
     margin-top: 50px;
     flex-direction: column;
     padding: 3px;
     border: none; }
-    /* line 66, C:/xampp/htdocs/onpro/coloridoJS/demo/styles/main.sass */
+    /* line 76, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
     .wrap div.box {
       width: 100%;
       margin: 0;
       border: none;
       box-shadow: none; } }
+
+/* line 84, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
+.info {
+  font-size: 22px;
+  text-align: center;
+  line-height: 38px; }
+
+/* line 89, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
+.s-icons {
+  font-size: 32px; }
+  /* line 91, C:/xampp/htdocs/onpro/Colorido.JS/styles/main.sass */
+  .s-icons code {
+    font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */
