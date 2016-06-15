@@ -3,6 +3,13 @@
 
 `Colorido.Js` is a awesome , flexible and cross-browser dynamically color changing tool for web projects. 
 
+###Example
+![Demo Image](https://i.imgflip.com/15vgbj.gif)
+>With colorido colors can be dynamically generated (whith many other options:
+* autoChange 
+* chromTab Color 
+* refresh color change etc
+
 ## Installation
 
 Install Colorido via Bower:
