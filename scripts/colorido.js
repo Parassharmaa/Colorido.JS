@@ -1,4 +1,4 @@
-target1 = document.getElementsByClassName("colorido"), target2 = document.getElementsByClassName("colorido-o"), target3 = document.getElementsByClassName("colorido-t"), max = config.choice.length, time = 1e3 * config.autoDuration, trans = 1 - config.opacity, animD = " " + config.animationDuration + "s ", animT = config.animationType, config.autoChange ? (renc(), setInterval(renc, time)) : renc(), config.chrometab && (metaIn("theme-color"), metaIn("msapplication-navbutton-color"), metaIn("apple-mobile-web-app-status-bar-style"));
+target1 = document.getElementsByClassName("colorido"), target2 = document.getElementsByClassName("colorido-o"), target3 = document.getElementsByClassName("colorido-t"), max = config.choice.length, time = 1e3 * config.autoDuration, trans = 1 - config.opacity, animD = " " + config.animationDuration + "s ", animT = config.animationType, config.autoChange ? (renc(), setInterval(renc, time)) : renc(), config.chromeTab && (metaIn("theme-color"), metaIn("msapplication-navbutton-color"), metaIn("apple-mobile-web-app-status-bar-style"));
 
 function renc() {
 	var t = parseInt(Math.random() * (max - 0) + 0);
