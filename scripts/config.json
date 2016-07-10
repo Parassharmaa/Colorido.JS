@@ -1,5 +1,5 @@
 var config = {
-	opacity: 0.7, // background opacity for colorido-o (0-1)
+	opacity: 0.5, // background opacity for colorido-o (0-1)
 	choice: [
 		'rgb(138, 43, 43)',
 		'rgb(98, 162, 40)',
@@ -10,9 +10,10 @@ var config = {
 		'rgb(40, 100, 162)', 
 		'rgb(230, 74, 25)'
 	], 
+	gradMix : "#d6d26f", //any color value or type random,  update : grad mix color
 	autoChange: true, // Auto Color Change Settings true = yes, false= no
-	autoDuration: 5,  // Auto Color Change Duration in Seconds
-	animationDuration: 0.6,  //Color Changing Animation Duration
+	autoDuration: 4,  // Auto Color Change Duration in Seconds
+	animationDuration: 0.3,  //Color Changing Animation Duration
 	animationType:"ease-in-out", //Animation Type
 	chromeTab: true  // Color Change Settings for chrome Tabs on android, wp and ios
 }
