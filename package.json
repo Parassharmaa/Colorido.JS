@@ -1,6 +1,6 @@
 {
   "name": "colorido.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Colorido.Js is a awesome , flexible and cross-browser dynamically color changing tool for web projects.",
   "main": "colorido.js",
   "scripts": {

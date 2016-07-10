@@ -38,36 +38,42 @@ $ npm install colorido.js
  
 ```javascript
     var config = {
-	opacity: 0.7,
+	opacity: 0.5, // background opacity for colorido-o (0-1)
 	choice: [
 		'rgb(138, 43, 43)',
 		'rgb(98, 162, 40)',
 		'rgb(40, 162, 162)', 
 		'rgb(40, 66, 162)', 
-		'rgb(121, 40, 162)', 
+		'rgb(121, 40, 162)', //Color array for random colors, add color in rgb for more
 		'rgb(121, 40, 162)', 
 		'rgb(40, 100, 162)', 
 		'rgb(230, 74, 25)'
 	], 
-	autoChange: true, 
-	autoDuration: 5,  
-	animationDuration: 0.3,  
-	animationType:"ease-in-out", 
-	chromeTab: true 
+	gradMix : "#d6d26f", //any color value or type random,  update : grad mix color
+	autoChange: true, // Auto Color Change Settings true = yes, false= no
+	autoDuration: 4,  // Auto Color Change Duration in Seconds
+	animationDuration: 0.3,  //Color Changing Animation Duration
+	animationType:"ease-in-out", //Animation Type
+	chromeTab: true  // Color Change Settings for chrome Tabs on android, wp and ios
 }
 ```
 * `opacity: Background opacity for colorido-o (0-1)`
 * `choice: Array of colors.`
 * `autoChange: true|False, Auto Color Change Settings` 
 * `autoDuration: Auto Color Change Duration in Seconds`
+* `gradMix: Optional mixing color for gradient bg`
 * `animationDuration:Color Changing Animation Duration`
 * `animationType:Animation Type`
 * `chromeTab: Color Change Settings for chrome Tabs on android, wp and ios`
 
-3.Colorido.js simply works upon 3 css classes:
+3.Colorido.js simply works upon 7 css classes:
 * `colorido: Applies Dynamic background color`
 * `colorido-o: Applies background color with opacity`
 * `colorido-t: Applies dynamic Text-color`
+* `colorido-gr: Applies dynamic Radial Gradient`
+* `colorido-gl: Applies dynamic linear Gradient`
+* `colorido-gd: Applies dynamic diagonal Gradient`
+* `colorido-gh: Applies dynamic Horizontal Gradient`
 
 **Applies these classes on your webcomponents to see magic**
 
